@@ -17,9 +17,11 @@
 ## 🧩 环境要求
 
 - Python ≥ 3.10  
-- 已安装依赖：
-  ```bash
-  pip install msal requests
+- 依赖：
+```bash
+pip install msal requests
+```
+
 
 
 ⚙️ 配置 Microsoft Entra 应用
