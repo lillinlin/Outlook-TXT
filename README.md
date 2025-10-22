@@ -43,7 +43,11 @@ pip install msal requests
 
 项目	值
 名称 (Name)	任意名称，如：PythonMailApp
+
+
 受支持帐户类型 (Supported account types)	个人 Microsoft 帐户 (Personal accounts only)
+
+
 重定向 URI (Redirect URI)	类型选 Web，值填入： http://localhost:8001
 
 
@@ -52,6 +56,7 @@ pip install msal requests
 注册完成后，在应用概览页中可看到以下三项：
 
 应用程序(客户端) ID|Application (client) ID  = `CLIENT_ID`
+
 目录(租户) ID|Directory (tenant) ID         = `TENANT_ID`
 
 
@@ -63,6 +68,7 @@ pip install msal requests
 进入左侧菜单：
 
 API 权限 (API permissions) → 添加权限 (Add a permission)
+
 → 选择 Microsoft Graph → 委托权限 (Delegated permissions)
 
 勾选以下项目：
