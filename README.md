@@ -10,7 +10,7 @@
 - 使用 Microsoft Graph API 进行安全 OAuth2 授权  
 - 支持 **个人 Microsoft 帐户 (Outlook / Hotmail)**  
 - 支持纯文本邮件（不会被编码为 `=0A`）  
-- 自动替换行尾为 CRLF，兼容老旧系统（如 za.net 自动模板）  
+- 自动替换行尾为 CRLF，兼容老旧系统
 
 ---
 
@@ -89,6 +89,6 @@ offline_access
 客户端机密(值) (Value) → 例如：Rzr8Q~xxxxxx~xxxxxxxxxxxx  = 3️⃣ `CLIENT_SECRET`
 
 --------------------------------------------------------------------------------------
-
+```bash
 python out.py
-
+```
