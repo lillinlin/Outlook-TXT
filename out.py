@@ -8,8 +8,8 @@ import webbrowser
 # Microsoft Graph API 配置
 # =============================
 CLIENT_ID = "需填写"
-CLIENT_SECRET = "需填写"
 TENANT_ID = "需填写"
+CLIENT_SECRET = "需填写"
 AUTHORITY = "https://login.microsoftonline.com/consumers"   # 个人账号
 REDIRECT_URI = "http://localhost:8001"
 
@@ -89,4 +89,12 @@ def acquire_token():
         print("✅ 获取访问令牌成功。")
         return result
     else:
-        print("❌ 登录失败：", r
+        print("❌ 登录失败：", result.get("error_description", "未知错误"))
+        exit(1)
+
+# =============================
+# 程序入口
+# =============================
+if __name__ == "__main__":
+    token = acquire_token()
+    send_mail(token["access_token"])
