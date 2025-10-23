@@ -77,7 +77,9 @@ API 权限 (API permissions) → 添加权限 (Add a permission)
 勾选以下项目：
 
 Mail.Send
+
 Mail.ReadWrite
+
 offline_access
 
 点击 添加权限 (Add permissions) 
