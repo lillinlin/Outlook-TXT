@@ -26,7 +26,7 @@ pip install msal requests
 
 ⚙️ 配置 Microsoft Entra 应用
 
-1️⃣ 打开 Microsoft Entra 管理中心
+1️⃣ 打开 Microsoft Entra 管理中心(需注册azure,无论注册是否成功都行)
 
 👉 https://entra.microsoft.com/
 
@@ -46,7 +46,9 @@ pip install msal requests
 名称 (Name)	任意名称，如：PythonMailApp
 
 
-受支持帐户类型 (Supported account types)	个人 Microsoft 帐户 (Personal accounts only)
+受支持帐户类型 (Supported account types)	
+
+选择 个人 Microsoft 帐户 (Personal accounts only)
 
 
 重定向 URI (Redirect URI)	类型选 Web，值填入： http://localhost:8001
