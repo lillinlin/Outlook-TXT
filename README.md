@@ -63,7 +63,7 @@ pip install msal requests
 目录(租户) ID|Directory (tenant) ID         = `TENANT_ID`
 
 
-客户端机密值|Client secret (创建见下方)      = `CLIENT_SECRET`
+客户端机密值|Client secret (5️⃣创建所得)      = `CLIENT_SECRET`
 
 
 4️⃣ 配置权限
