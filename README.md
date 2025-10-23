@@ -9,7 +9,7 @@
 
 - 使用 Microsoft Graph API 进行安全 OAuth2 授权  
 - 支持 **个人 Microsoft 帐户 (Outlook / Hotmail)**  
-- 支持纯文本邮件（不会被编码为 `=0A`）  
+- 纯文本邮件（换行不会被编码为 `=0A`）  
 - 自动替换行尾为 CRLF，兼容老旧系统
 
 ---
@@ -25,6 +25,7 @@ pip install msal requests
 
 
 ⚙️ 配置 Microsoft Entra 应用
+
 1️⃣ 打开 Microsoft Entra 管理中心
 
 👉 https://entra.microsoft.com/
